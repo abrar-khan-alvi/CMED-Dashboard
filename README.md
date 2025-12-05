@@ -61,6 +61,10 @@ cd prescription-system
 - **H2 Console**: `http://localhost:8080/h2-console`
 - **Swagger UI**: `http://localhost:8080/swagger-ui.html`
 
+### Default Login Credentials
+- **Username**: `admin`
+- **Password**: `password`
+
 ### 2. Frontend Setup (`frontend`)
 Navigate to the frontend directory, install dependencies, and start the development server:
 
@@ -90,19 +94,23 @@ The backend exposes a REST API at `/api/v1/prescription`.
 
 ## 📸 Screenshots
 
-### 1. Dashboard
+### 1. Login Page
+Secure entry point for users.
+![Login Page](screenshots/Login.png)
+
+### 2. Dashboard
 View list of prescriptions with date filters.
 ![Dashboard](screenshots/Dashboard.png)
 
-### 2. Prescription Form
+### 3. Prescription Form
 Form for creating and editing prescriptions.
 ![Prescription Form](screenshots/Prescription-form.png)
 
-### 3. Reports
+### 4. Reports
 Visualization of daily prescription statistics.
 ![Reports](screenshots/Reports.png)
 
-### 4. API Documentation (Swagger)
+### 5. API Documentation (Swagger)
 Interactive API documentation.
 ![Swagger UI](screenshots/Swagger%20Backend.png)
 
